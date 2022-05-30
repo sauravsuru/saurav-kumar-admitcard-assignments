@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save data</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="wrapper-div">
+    <div class="parent">
+        <div class="btn-div">
+            <a href="search.html" target="_blank"><button id="search-btn" class="btn">Search Details</button></a>
+
+        </div>
+
+        <div class="title-holder"><h2>Fill Your Details</h2></div>
+
+        <div class="form-holder">
+        <div class="part1">
+            <form id="myform">
+                <div class="inputs-holder">
+                    <label for="name">Enter Your name<span>&#42</span></label>
+                  <input type="text" placeholder="Enter your name" required id="name" />
+                  <span id="no-name" style="visibility:hidden;" class="disp">Mandatory field</span>
+                </div>
+                <div class="inputs-holder">
+                 
+                  <label for="email">Enter Your Email<span>&#42</span></label>
+          
+                    <input type="text" placeholder="Enter your email" required id="email">
+                    <span id="no-mail" style="visibility: hidden;" class="disp">Mandatory field or Invalid Mail Syntax</span>
+
+
+
+                </div>
+                <div class="inputs-holder">
+                  
+                  <label for="cnumber">Enter Your Contact Number<span>&#42</span></label>
+          
+                    <input type="number" placeholder="Enter your contact number" required id="cnumber">
+                    <span id="no-number" style="visibility: hidden;" class="disp">Mandatory field or Less Than 10 Digits</span>
+
+
+                </div>
+            </form>
+        </div>
+       
+       
+        <div class="part2">
+            <form id="myform2">
+            <div class="inputs-holder">
+       
+                <label for="clevel">Enter Your Course Level<span>&#42</span></label>
+        
+                <select id="clevel">
+                    <option value="--select--">--select--</option>
+                     <option value="UG">UG</option>
+                    <option value="PG">PG</option>
+                    
+                  </select>
+                  <span id="no-course" style="visibility:hidden;" class="disp">Mandatory field</span>
+
+              </div>
+              <div class="inputs-holder">
+                <label for="countrypref">Enter Your Country Preferences<span>&#42</span></label>
+        
+                <select id="countrypref" multiple="multiple">
+                    <option value="India">india</option>
+                    <option value="France">France</option>
+                    <option value="Srilanka">Srilanka</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Bangladesh">Bangladesh</option>
+        
+                    
+                  </select>
+                  <span id="no-country" style="visibility:hidden;" class="disp">Mandatory field</span>
+
+              </div>
+              <div class="inputs-holder">
+                  <label for="DOB">Enter Your Date Of Birth</label>
+                  <input type="date" placeholder="Enter Your DOB" id="DOB">
+              </div>
+        </div>
+        </div>
+    </form>
+
+    <div class="buttons-holder">
+        <button id="save-btn" class="btn">Save Details</button>
+        
+    </div>
+    <br><span id="success-msg" style="color: green;font-size: 18px; visibility: hidden;">Data Saved Successfully!</span>
+        
+      
+      
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-div {
+
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00FFFF;
+
+
+}
+
+.btn-div{
+
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.parent {
+
+    width: 70vw;
+    height: auto;
+
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 15px 25px 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 3px black;
+    border: 1px solid black;
+
+}
+
+.form-holder {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.part1 {
+
+    width: 50%;
+    height: auto;
+}
+
+.part2 {
+
+    width: 50%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.parent form {
+
+    width: 100%;
+    height: 100%;
+}
+
+.inputs-holder {
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.inputs-holder input {
+
+    width: 98%;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.inputs-holder select {
+
+    width: 99%;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.inputs-holder span {
+
+    color: red;
+}
+
+.buttons-holder {
+
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-holder {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: #E0FFFF;
+
+}
+
+.btn {
+
+    width: auto;
+    height: 40px;
+    border: 1px solid black;
+    outline: none;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgba(5, 116, 5, 0.6);
+
+    font-size: 14px;
+}
+
+#search-btn {
+
+    background-color: rgba(252, 168, 12, 0.6);
+
+    font-size: 14px;
+}
+
+.btn:hover {
+
+    cursor: pointer;
+    background-color: rgba(5, 116, 5, 0.8);
+
+}
+
+#search-btn:hover {
+
+    background-color: rgba(252, 168, 12, 0.8);
+
+
+}
+
+
+
+.warpper {
+
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-holder {
+
+    max-width: 100%;
+    height: 30vh;
+    background-color: #9400D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#data-holder {
+
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.search-holder {
+
+    width: 60%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+#search-box-holder {
+
+    width: 70%;
+    height: 100%;
+}
+
+#search-btn-holder {
+
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+#search-box-holder input {
+
+    width: 99%;
+    height: 95%;
+    outline: none;
+    font-size: 16px;
+
+}
+
+#search-btn-btn {
+
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px solid black;
+    background-color: rgba(242, 162, 14, 0.9);
+    color: black;
+    font-size: 16px;
+}
+
+
+#search-btn-btn:hover {
+
+
+    background-color: rgba(242, 162, 14, 1);
+    cursor: pointer;
+}
+
+#data-parent-holder {
+
+    width: 600px;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 1px solid black;
+
+}
+
+#column-div {
+
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#data-div {
+
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#column-div div {
+
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+#data-div div {
+
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+    word-break: break-all;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
